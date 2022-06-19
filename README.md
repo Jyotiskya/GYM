@@ -1,3 +1,3 @@
 # gym-website
+https://jyotiskya.github.io/GYM/
 
-https://deep4rock.github.io/gym-website/
