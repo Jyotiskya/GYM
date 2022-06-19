@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepak FItness</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* css reset */
+    body {
+      font-family: "Baloo Bhai 2", cursive;
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url("gym-web.jpg");
+    }
+    .left {
+      /* border: 2px solid red; */
+      display: inline-block;
+      top: 21px;
+      left: 48px;
+      position: absolute;
+    }
+    .left img {
+      width: 148px;
+      filter: invert(100%);
+    }
+    .left div {
+      line-height: 7px;
+      font-size: 20px;
+      text-align: center;
+    }
+    .mid {
+      /* border: 2px  solid green; */
+      display: block;
+      width: 36%;
+      margin: 25px auto;
+    }
+    .right {
+      /* border: 2px solid blue; */
+      display: inline-block;
+      top: 34px;
+      right: 34px;
+      position: absolute;
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 18px;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 24px 13px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: gray;
+    }
+    .btn {
+      margin: 0px 9px;
+      background-color: black;
+      color: white;
+      padding: 3px 5px;
+      border: 2px solid grey;
+      border-radius: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      font-family: "Baloo Bhai 2", cursive;
+    }
+    .btn:hover {
+      background-color: rgb(94, 74, 74);
+    }
+    .container {
+      border: 2px solid white;
+      margin: 119px 32px;
+      padding: 71px 35px;
+      width: 33%;
+      border-radius: 15px;
+    }
+    .container h2 {
+      text-align: center;
+    }
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 359px;
+      padding: 1px;
+      border: 3px solid black;
+      margin: 7px auto;
+      border-radius: 8px;
+      font-size: 19px;
+      font-family: "Baloo Bhai 2", cursive;
+    }
+    .container button {
+      display: block;
+      width: 73%;
+      margin: 24px auto;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <!-- this is for logo -->
+      <div class="left">
+        <img src="logo.png" alt="" />
+        <div>Deepak Fitness</div>
+      </div>
+      <!-- this is for navbar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- this is for search bar -->
+      <div class="right">
+        <button class="btn">Call Us Now</button
+        ><button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h2>Join The Best Gym Of Gwalior Now</h2>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Age" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Gender" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Locality" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
